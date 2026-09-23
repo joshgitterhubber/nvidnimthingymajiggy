@@ -12,6 +12,6 @@ The page uses the gateway's admin API and live SSE endpoint. Enter the configure
 
 This repository includes a Pages deployment workflow in `.github/workflows/pages.yml`.
 
-If Pages has not been enabled for this repository yet, open **Settings → Pages** and set **Source** to **GitHub Actions**.
+Pages source is configured for **GitHub Actions**.
 
 The dashboard uses SSE for live updates. The full snapshot fallback refresh runs once per minute.
