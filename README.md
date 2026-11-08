@@ -18,7 +18,7 @@ OVHcloud appears in the provider switcher. Select a model in the OVHcloud model 
 { "model": "ovh" }
 ```
 
-The gateway resolves `ovh` to the model selected in this dashboard. The initial selection is **Qwen3.8-27B**.
+The gateway resolves `ovh` to the model selected in this dashboard. The initial selection is **Qwen3.8-27B**. The picker uses OVH's raw model IDs (for example, `Qwen3.8-27B`) rather than the `ovh-free/` namespace used by some client-side model catalogs.
 
 Direct model aliases are also available:
 
